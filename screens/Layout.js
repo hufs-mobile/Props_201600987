@@ -112,7 +112,7 @@ const styles = StyleSheet.create({
   },
   playingSpace: {
     backgroundColor: 'white',
-    borderColor: 'blue',
+    borderColor: 'green',
     borderWidth: 3
 
   },

@@ -13,9 +13,9 @@ function MainTabNavigator() {
     return (
         <NavigationContainer>
             <Nav.Navigator initialRouteName='Home'>
-                <Nav.Screen name = "Layout" component={Layout} options={{title: '처음 Layout'}}/>
-                <Nav.Screen name = "Home" component={Home} options={{title: '추가 Home'}}/>
-                <Nav.Screen name = "Weather" component={Weather} options={{title: '날씨조회화면'}}/>
+                <Nav.Screen name = "Layout" component={Layout} options={{title: 'Square Game'}}/>
+                <Nav.Screen name = "Home" component={Home} options={{title: 'Home'}}/>
+                <Nav.Screen name = "Weather" component={Weather} options={{title: 'Weather'}}/>
                 <Nav.Screen name = "Youtube" component={YoutubeViewer} options={{title: "Youtube"}}/>
 
 

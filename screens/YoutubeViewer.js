@@ -8,7 +8,7 @@ import { TextInput } from "react-native";
 
 const YoutubeViewer = (props) => {
     const [playing,setPlaying] = useState(false);
-    const [playingVideoId, setPlayingVideoId] = useState("tEm9EyEPMYM")
+    const [playingVideoId, setPlayingVideoId] = useState("KjzbqzoEgrQ")
 
     const onStateChange = useCallback((state) => {
         if (state === "ended") {
@@ -24,7 +24,7 @@ const YoutubeViewer = (props) => {
       return (
         <ScrollView>
           <YoutubePlayer
-            height={300}
+            height={400}
             play={playing}
             videoId={playingVideoId}
             onChangeState={onStateChange}
@@ -43,8 +43,8 @@ const YoutubeViewer = (props) => {
         input: {
           height: 40,
           margin: 12,
-          borderWidth: 1,
-          padding: 10,
+          borderWidth: 2,
+          padding: 20,
         },
       });
        
